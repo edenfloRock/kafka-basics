@@ -18,7 +18,7 @@ def main():
             if msg is None:
                 print('No hay mensaje, sigo escuchando...')
                 continue
-            print(f"Clave Mensaje: {msg.key().decode('utf-8')}")
+            print(f"Clave Mensaje: {msg.key()}")
             print(f"Valor Mensaje: {msg.value().decode('utf-8')}")
             print(f"Partición: {msg.partition()}")
             print(f"Offset: {msg.offset()}")
