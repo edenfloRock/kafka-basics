@@ -88,6 +88,3 @@ Para ejecutar este proyecto, sigue los comandos en el siguiente orden:
 5. **Ejecutar script para ejecutar el Productor**
 
 6. **Ejecutar script para ejecutar el Consumidor**
-
-
-
